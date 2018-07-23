@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator Math</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div class="ui center aligned grid container">
+
+        <div class="row">
+            <div class="column">
+                <div class="ui message">
+                    <h1 class="ui center aligned header">Calculator Math</h1>
+                    <p>Simple calculator for basic math operations</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="six wide column">
+                <div class="ui form">
+                    <form id="add-form" class="fields">
+                        <div class="field">
+                            <input id="add-first" type="number" placeholder="0">
+                        </div>
+                        <div class="field">
+                            <h3>+</h3>
+                        </div>
+                        <div class="field">
+                            <input id="add-second" type="number" placeholder="0">
+                        </div>
+                        <div class="field">
+                            <input id="add-submit" class="ui button" type="submit" value="=">
+                        </div>
+                        <div class="field">
+                            <h3 id="add-result">?</h3>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="six wide column">
+                <div class="ui form">
+                    <form id="substract-form" class="fields">
+                        <div class="field">
+                            <input id="substract-first" type="number" placeholder="0">
+                        </div>
+                        <div class="field">
+                            <h3>−</h3>
+                        </div>
+                        <div class="field">
+                            <input id="substract-second" type="number" placeholder="0">
+                        </div>
+                        <div class="field">
+                            <input id="substract-submit" class="ui button" type="submit" value="=">
+                        </div>
+                        <div class="field">
+                            <h3 id="substract-result">?</h3>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="six wide column">
+                <div class="ui form">
+                    <form id="multiply-form" class="fields">
+                        <div class="field">
+                            <input id="multiply-first" type="number" placeholder="0">
+                        </div>
+                        <div class="field">
+                            <h3>×</h3>
+                        </div>
+                        <div class="field">
+                            <input id="multiply-second" type="number" placeholder="0">
+                        </div>
+                        <div class="field">
+                            <input id="multiply-submit" class="ui button" type="submit" value="=">
+                        </div>
+                        <div class="field">
+                            <h3 id="multiply-result">?</h3>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="six wide column">
+                <div class="ui form">
+                    <form id="divide-form" class="fields">
+                        <div class="field">
+                            <input id="divide-first" type="number" placeholder="0">
+                        </div>
+                        <div class="field">
+                            <h3>÷</h3>
+                        </div>
+                        <div class="field">
+                            <input id="divide-second" type="number" placeholder="0">
+                        </div>
+                        <div class="field">
+                            <input id="divide-submit" class="ui button" type="submit" value="=">
+                        </div>
+                        <div class="field">
+                            <h3 id="divide-result">?</h3>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="six wide column">
+                <div class="ui form">
+                    <form id="modulo-form" class="fields">
+                        <div class="field">
+                            <input id="modulo-first" type="number" placeholder="0">
+                        </div>
+                        <div class="field">
+                            <h3>%</h3>
+                        </div>
+                        <div class="field">
+                            <input id="modulo-second" type="number" placeholder="0">
+                        </div>
+                        <div class="field">
+                            <input id="modulo-submit" class="ui button" type="submit" value="=">
+                        </div>
+                        <div class="field">
+                            <h3 id="modulo-result">?</h3>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
